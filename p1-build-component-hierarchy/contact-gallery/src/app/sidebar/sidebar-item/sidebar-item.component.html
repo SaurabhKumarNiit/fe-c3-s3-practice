@@ -1,0 +1,17 @@
+<div *ngIf="parentData; then ifBlock else elseBlock"></div>
+
+<ng-template #ifBlock>
+
+    <div class="sidebar">
+        <div id="inside">
+            <p>First Name: {{parentData.firstName}}</p>
+            <p>Last Name: {{parentData.lastName}}</p>
+            <p>Email : {{parentData.email}}</p>
+            <p>Contact Number:{{parentData.contactNo}}</p>
+        </div>
+    </div>
+</ng-template>
+
+<ng-template #elseBlock>
+
+</ng-template>

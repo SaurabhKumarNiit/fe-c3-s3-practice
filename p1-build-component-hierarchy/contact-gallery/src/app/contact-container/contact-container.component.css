@@ -1,0 +1,9 @@
+.card{
+    display: inline-flex;
+    align-items: flex-start;
+    margin-right: 10px;
+}
+#cards{
+    width: 1000px;
+
+}

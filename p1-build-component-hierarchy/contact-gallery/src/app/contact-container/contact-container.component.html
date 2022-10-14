@@ -1,0 +1,4 @@
+<div id="cards">
+<app-contact-card class="card" *ngFor="let contact of contacts" [contact] = "contact" (hoveredContact)="item=$event"></app-contact-card>
+</div>
+<app-sidebar-item [parentData]="item"></app-sidebar-item>
