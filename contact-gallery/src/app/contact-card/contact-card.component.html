@@ -1,5 +1,5 @@
 
-<a href="" (mouseover)="showDetails(contact)" >
+<a href="" (mouseover)="showDetails(contact)" (mouseout)="hideDetails(contact)">
     <div class="card-content">     
                 <span id="first">{{contact?.firstName?.charAt(0)}}</span> 
                 <div>

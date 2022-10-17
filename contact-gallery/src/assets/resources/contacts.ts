@@ -1,5 +1,5 @@
 import { Contact } from "./contact";
-
+  
 export const CONTACTS: Contact[] = [
     {
       id: 62,
@@ -100,4 +100,6 @@ export const CONTACTS: Contact[] = [
       contactNo: "+1 (951) 527-3468"
     }
   ]
+
+  
 

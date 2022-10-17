@@ -14,17 +14,23 @@ export class ContactCardComponent implements OnInit {
 
   @Input()
   contact?: Contact;
-  constructor() { }
+  constructor() { 
+    
+  }
+
 
   ngOnInit(): void {
     
   }
 
   @Output()
-  hoveredContact: EventEmitter<Contact> = new EventEmitter<Contact>();
+  hoveredContact: EventEmitter<any> = new EventEmitter<any>();
   showDetails(contact:any){
     this.hoveredContact.emit(contact);
   }
 
+  hideDetails(contact:any){
+  this.hoveredContact.emit(null);
+  }
   
 }

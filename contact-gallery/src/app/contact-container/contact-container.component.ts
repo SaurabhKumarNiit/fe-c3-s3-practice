@@ -17,4 +17,6 @@ export class ContactContainerComponent implements OnInit {
   }
 
   public item:Contact ={};
+
+  //let sortContact=contacts
 }

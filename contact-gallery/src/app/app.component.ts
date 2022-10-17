@@ -10,6 +10,7 @@ import { CONTACTS } from '../assets/resources/contacts';
 export class AppComponent {
   title = 'contact-gallery';
   contacts: Contact[] = CONTACTS;
+  
 
   constructor() {
   }
